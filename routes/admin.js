@@ -9,7 +9,7 @@ const { hashPassword, hashCompare, createToken, decodeToken, validate, roleAdmin
 const jwt = require("jsonwebtoken");
 
 //frontend url
-let frontUrl = "http://localhost:3000"
+let frontUrl = "https://seaview-bistro.netlify.app/"
 
 // admin login
 router.post("/adminLogin", async (req, res) => {
